@@ -2,8 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <style type="text/css">
+             .par{width: 300px;}
+             /* 在max-width和width同时存在时，如果width render 则以max-width为准 */
+            .div{width: 600px; max-width: 100%;height: 100px;background-color: red;}
+        </style>
     </head>
     <body>
+    <div class="par"><div class="div"></div></div>
+    
     <script type="text/javascript" src="js.js"></script>
     </body>
 </html>
