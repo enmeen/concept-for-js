@@ -184,3 +184,4 @@ function f1(){
 }
 
 //4.promises对象 在es5里已经提供了原生的api
+/*s*/
